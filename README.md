@@ -1,11 +1,9 @@
 # RAG-TAG: Retrieval-Augmented Generation for Tactical Assistance & Guidance (Reference Dataset)
 
 ### Author Affiliation
-
-**[James Hazelrig]**, Jet Propulsion Laboratory, California Institute of Technology
+**James Hazelrig**, Jet Propulsion Laboratory, California Institute of Technology
 
 ### Dataset Description
-
 This dataset provides a small curated collection of simulated ground system artifacts used for proof of concept benchmarking and evaluating Human-AI interaction and Retrieval-Augmented Generation (RAG) models. It is designed to simulate the "multi-hop" reasoning and tribal knowledge navigation required by Tactical Uplink Leads during Mars 2020 ground operations.
 
 **This dataset contains approximately 20 evaluation items derived from the following file types:**
@@ -16,32 +14,23 @@ This dataset provides a small curated collection of simulated ground system arti
 4. **Contextual Communications:** Anonymized excerpts of operator communications (e.g., Mattermost snippets) discussing the interpretation of UI warning messages and constraints (.docx).
 
 ### Directory Structure & File Manifest
-
 The dataset is organized into testing pairs (Input/Context + Ground Truth) as follows:
 
+```text
 ├── RAG-TAG-Dataset/
 │   ├── README.md
-│   ├── Mars 2020 Acronym List and Glossary-v421.docx	(wiki excerpt of project list of terms and acronyms)
+│   ├── Mars 2020 Acronym List and Glossary-v421.docx        (wiki excerpt of project list of terms and acronyms)
 │   ├── 01_AEGIS_multihop_example/
-│   │   ├── aegis_report_example.html    (Summary report showing failures)
-│   │   ├── aegis_evrs_example.txt       (high level simulation event records/printf output)
-│   │   └── Expected SSim WARNING EVRs and Known Behaviors-v95-20260503_204421.docx	(related wiki excerpt with additional context and pointers to further sources of information)
+│   │   ├── aegis_report_example.html                        (Summary report showing failures)
+│   │   ├── aegis_evrs_example.txt                           (high level simulation event records/printf output)
+│   │   └── Expected SSim WARNING EVRs and Known Behaviors-v95-20260503_204421.docx (related wiki excerpt with additional context and pointers to further sources of information)
 │   ├── 02_Benign_cmd_failures_example/
-│   │   ├── drill_example.html   		 (Summary report showing failures)
-│   │   └── failed_commands_example.docx (context document covering many benign command failures)
+│   │   ├── drill_example.html                               (Summary report showing failures)
+│   │   └── failed_commands_example.docx                     (context document covering many benign command failures)
 │   ├── 03_SeqVal_runtime_error/
-│   │   └── ULD_error.docx				 (uplink dashboard application error modal screencap with context explanation)
+│   │   └── ULD_error.docx                                   (uplink dashboard application error modal screencap with context explanation)
 │   ├── 04_Copilot_COCPIT_minflex_example/
-│   │   └── minflexibility_example.docx   (Anonymized SME discussion on rounding bugs)
-│   ├── 05_Power_modeling_warning_example/
-│   │   ├── hanging_loads_example.html   (Summary report showing warning)
-│   │   └── hanging_loads_context.docx	 (context document covering hanging load)
-
-
-**Export Control & Security Note:** This dataset represents *ground-side* simulation tool outputs and high-level planning constraints. It contains NO flight software (FSW) source code, NO command op codes, NO ITAR/EAR restricted technical data, NO commercial applications, and NO spacecraft vulnerabilities. All names have been anonymized.
-
-### Acknowledgement
-
-The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration - 80NM0018D0004.
-
----
+│   │   └── minflexibility_example.docx                      (Anonymized SME discussion on rounding bugs)
+│   └── 05_Power_modeling_warning_example/
+│       ├── hanging_loads_example.html                       (Summary report showing warning)
+│       └── hanging_loads_context.docx                       (context document covering hanging load)
