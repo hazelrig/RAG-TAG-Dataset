@@ -16,7 +16,7 @@ This dataset provides a small curated collection of simulated ground system arti
 ### Directory Structure & File Manifest
 The dataset is organized into testing pairs (Input/Context + Ground Truth) as follows:
 
-```text
+```
 ├── RAG-TAG-Dataset/
 │   ├── README.md
 │   ├── Mars 2020 Acronym List and Glossary-v421.docx        (wiki excerpt of project list of terms and acronyms)
@@ -34,3 +34,13 @@ The dataset is organized into testing pairs (Input/Context + Ground Truth) as fo
 │   └── 05_Power_modeling_warning_example/
 │       ├── hanging_loads_example.html                       (Summary report showing warning)
 │       └── hanging_loads_context.docx                       (context document covering hanging load)
+
+```
+
+**Export Control & Security Note:** This dataset represents *ground-side* simulation tool outputs and high-level planning constraints. It contains NO flight software (FSW) source code, NO command op codes, NO ITAR/EAR restricted technical data, NO commercial applications, and NO spacecraft vulnerabilities. All names have been anonymized.
+
+### Acknowledgement
+
+The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration - 80NM0018D0004.
+
+---
