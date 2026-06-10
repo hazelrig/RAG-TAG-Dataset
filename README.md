@@ -6,7 +6,7 @@
 ### Dataset Description
 This dataset provides a small curated collection of simulated ground system artifacts used for proof of concept benchmarking and evaluating Human-AI interaction and Retrieval-Augmented Generation (RAG) models. It is designed to simulate the "multi-hop" reasoning and tribal knowledge navigation required by Tactical Uplink Leads during Mars 2020 ground operations.
 
-**This dataset contains approximately 20 evaluation items derived from the following file types:**
+**This dataset contains evaluation items derived from the following file types:**
 
 1. **Procedural Reference Materials:** Excerpts from Mars 2020 project wikis, including a glossary of acronyms/terms and a ground simulation idiosyncrasy disposition table (.docx).
 2. **Annotated Ground Simulation Logs:** Free-form text blurbs of simulation print statements and summarized error messages, representing outputs from the Surface Simulation (SSIM) and Uplink Dashboard (.docx, .txt).
