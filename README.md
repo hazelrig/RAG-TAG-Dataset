@@ -37,7 +37,7 @@ The dataset is organized into testing pairs (Input/Context + Ground Truth) as fo
 
 ```
 
-**Export Control & Security Note:** This dataset represents *ground-side* simulation tool outputs and high-level planning constraints. It contains NO flight software (FSW) source code, NO command op codes, NO ITAR/EAR restricted technical data, NO commercial applications, and NO spacecraft vulnerabilities. All names have been anonymized.
+**Export Control & Security Note:** This dataset represents *ground-side* simulation tool outputs and high-level planning constraints. It contains NO flight software (FSW) source code, NO command op codes, NO ITAR/EAR restricted technical data, NO commercial applications, and NO spacecraft vulnerabilities. All names have been anonymized. JPL Clearances: URS 338825, CL# 26-1885
 
 ### Acknowledgement
 
